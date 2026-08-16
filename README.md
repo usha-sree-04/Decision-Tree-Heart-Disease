@@ -122,15 +122,7 @@ The `max_depth` experiment showed that the unrestricted tree (`max_depth=None`) 
 * Scikit-learn
 * Jupyter Notebook
 
-from sklearn.tree import plot_tree
 
-plt.figure(figsize=(25, 15))
-
-plot_tree(
-    model3,
-    feature_names=X.columns,
-    class_names=['0', '1'],
-    filled=True,
     rounded=True,
     fontsize=8
 )
